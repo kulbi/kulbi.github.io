@@ -96,7 +96,7 @@ header .tablet {
 }
 
 /* header - tablet version */
-@media only screen and (min-width: 400px) and (max-width: 760px) {
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
   header .desktop {
     display: none;
   }
@@ -132,7 +132,7 @@ header .tablet {
 }
 
 /* header - mobile version */
-@media only screen and (max-width: 399px) {
+@media only screen and (max-width: 999px) {
   header .desktop {
     display: none;
   }
@@ -229,7 +229,7 @@ header .tablet {
 
 /* sign-up -  tablet version */
 
-@media only screen and (min-width: 400px) and (max-width: 760px) {
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
   /*
   #sign-up-section {
     align-items: center;
@@ -262,7 +262,7 @@ header .tablet {
   }
 }
 
-@media only screen and (max-width: 399px) {
+@media only screen and (max-width: 999px) {
   #sign-up-section {
     height: 20rem;
   }
@@ -320,7 +320,7 @@ header .tablet {
 
 /* tablet version */
 
-@media only screen and (min-width: 400px) and (max-width: 760px) {
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
   #features-section {
     padding: 1rem 2% 1rem 2%;
   }
@@ -350,7 +350,7 @@ header .tablet {
 
 /* Mobile version */
 
-@media only screen and (max-width: 399px) {
+@media only screen and (max-width: 999px) {
   #features-section {
     flex-flow: column;
     padding: 0;
@@ -401,7 +401,7 @@ header .tablet {
 }
 
 /* filters - tablet version */
-@media only screen and (min-width: 400px) and (max-width: 760px) {
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
   #filters-section {
     padding: 4rem 0 0 0;
   }
@@ -459,7 +459,7 @@ header .tablet {
 }
 
 /* quotes - tablet version */
-@media only screen and (min-width: 400px) and (max-width: 760px) {
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
   #quotes-section {
     display: flex;
     justify-content:left;
@@ -501,7 +501,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 400px) and (max-width: 760px) {
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
   footer .content {
     font-size: 0.625rem;
   }
