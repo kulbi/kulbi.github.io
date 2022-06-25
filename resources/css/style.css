@@ -32,13 +32,15 @@ html {
   display: block;
 }
 
-/*
-@media only screen and (min-width: 400px) and (max-width: 760px) {
+
+/* main conntent - mobile version */
+@media only screen and (max-width: 999px) {
   .main-content {
-    top: 2.5625rem;
+    padding-top: 43px;
   }
 }
-*/
+
+
 /* Header */
 
 header {
@@ -133,6 +135,11 @@ header .tablet {
 
 /* header - mobile version */
 @media only screen and (max-width: 999px) {
+  
+  header {
+    height: 43px;
+  }
+
   header .desktop {
     display: none;
   }
