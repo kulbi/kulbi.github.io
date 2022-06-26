@@ -73,6 +73,19 @@ header a:hover {
   padding-bottom: 3rem;
 }
 
+/* name part - mobile version */
+@media only screen and (max-width: 34rem) {
+    .name h1 {
+        font-size: 10vw;
+    }
+
+    .name h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        font-size: 6vw;
+
+    }
+}
 /* abour part rules */
 .site-content {
     display: flex;
