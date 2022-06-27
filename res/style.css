@@ -5,6 +5,30 @@ body {
     background-color: #4a546b;
 }
 
+
+    
+.projects h1::after {            /*::after is a standarised selector, that will place element always after defined element*/
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 16rem;
+    height: 4px;
+    margin-left: -8rem;
+    background-color: #717f87;
+}
+
+
+
+.projects h1 {
+    position: relative;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+}
+
+
 /* header rules*/ 
 header {
     position: fixed;  /* will stay on top despite of scrolling */
@@ -129,6 +153,30 @@ header a:hover {
     text-align: center;
 }
 
+.container_images {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  .badge {
+    height: 100px;
+    width: 100px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-image: url("../res/images/css_logo.png");
+    background-size: cover;
+  }
 /*
 .oval {
     width: 200px;
