@@ -22,7 +22,6 @@ body {
 }
 
 
-
 .projects h1 {
     position: relative;
     padding-top: 6rem;
@@ -153,41 +152,9 @@ header a:hover {
 .container_images {
     display: flex;
     justify-content: space-between;
-    padding: 4rem 20% 2.875rem 20%;
-    /*position: relative;*/
+    padding: 0 20% 5rem 20%;
     text-align: center;
     color: black;
-  }
-
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-
-  .badge_css {
-    height: 100px;
-    width: 100px;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 50%;
-    background-image: url("../res/images/css_logo.png");
-    background-size: cover;
-  }
-
-  .badge_js {
-    height: 100px;
-    width: 100px;
-    display: table-cell;
-    text-align: center;
-    color: #222733;
-    vertical-align: middle;
-    border-radius: 50%;
-    background-image: url("../res/images/js.png");
-    background-size: cover;
   }
 
 
@@ -201,13 +168,33 @@ line-height: 3em;
 text-align: center;
 background-color: #DBE8D4;
 border-radius: 50%;
+transition: background-color 0.7s;
 }
 
 .container_images img {
 width: 1.8em;
 height: 1.8em;
-
 margin-top: 0.6em;
+}
+
+.container_images a:active, 
+.container_images a:hover {
+    background-color:#73CCA8;
+    transition: background-color 0.7s;
+}
+
+.dropdown_menu{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  perspective: 1000px;
+  display: none;
+}
+
+.dropdown:hover,
+.dropdown_menu--animated {
+  display: block;
 }
 
 .fa-brands {
@@ -228,6 +215,7 @@ margin-top: 0.6em;
 
 .contact-icons {
     padding: 2rem;
+    
 }
 .contact-icons a {
 display: block;
@@ -239,19 +227,13 @@ line-height: 1.5em;
 text-align: center;
 background-color: #DBE8D4;
 border-radius: 50%;
-box-shadow: 0 2px 10px 0rgba(0,0,0,0.2),0 1px 5px 0rgba(0,0,0,0.2);
+transition: background-color 0.7s;
+
 }
 
 .contact-icons a:active, 
 .contact-icons a:hover {
     background-color:#73CCA8;
-    border-bottom: 4px solid #73CCA8;
+    transition: background-color 0.7s;
 }
 
-  .badge .textincircle {
-   /* z-index: -1;
-    position: relative;
-    opacity: none;*/
-    color: rgb(0, 0, 0);
-  }
-/*
